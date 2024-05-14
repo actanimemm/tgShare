@@ -13,7 +13,7 @@ class SettingsModel(BaseModel):
     CUSTOM_CAPTION: str = "This file(s) will be deleted within {} minutes"
     USER_REPLY_TEXT: str = "idk"
 
-    AUTO_DELETE_SECONDS: int = 300
+    AUTO_DELETE_SECONDS: int = 0
 
     GLOBAL_MODE: bool = False
 
